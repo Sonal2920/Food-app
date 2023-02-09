@@ -1,0 +1,125 @@
+/* header section start */
+.header_img {
+    width:100%;
+}
+.header{
+    padding-left: 0px !important;
+}
+a:hover{
+    background-color: rgb(233, 143, 32);
+}
+.navbar{
+    background-color: rgba(9, 0, 0, 0.541);
+    position: fixed;
+    width: -webkit-fill-available;
+}
+.nav-link,.navbar-brand {
+    color:white !important;
+}
+.navbar-toggler-icon{
+    color:white !important;
+}
+/* header section end */
+
+/* container section start */
+.container-sm{
+    width:500px;
+    background: rgba(222, 130, 8, 0.564);
+    text-decoration: black;
+}
+
+/* container section end */
+
+/* service section */
+.card {
+    display:inline-block;
+    background-color: rgba(121, 118, 118, 0.092);
+}
+.subheading{
+    color:rgb(192, 38, 11);
+    text-align: center;
+}
+/* service section end*/
+
+/* footer section */
+.footer{
+    line-height: 2.5em;
+    background-color: rgb(198, 63, 10);
+    --bs-link-color:white !important; 
+}
+.fa{
+    padding: 15px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: white;
+    border-radius: 50%;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    padding: 15px;
+    width: 40px;
+    border-radius: 50%;
+  
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+}
+.copyright{
+    text-align: center;
+    background-color: rgb(198, 63, 10);
+    text-align: center;
+    color: white;
+}
+/* footer section end */
+
+/* @media query start */
+@media screen and (max-width: 375px){
+.container{
+    width: 350px !important;
+}
+.navbar{
+    background-color: rgba(9, 0, 0, 0.541);
+    position: fixed;
+    width: -webkit-fill-available;
+}
+.navbar-toggler{
+    color: white;
+    background-color: rgba(222, 129, 8, 0.827);
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 230px;
+}
+.fa-facebook{
+    padding: 15px;
+    font-size: 30px;
+    width: 40px;
+    border-radius: 50%;
+  }
+}
+/* media query */
